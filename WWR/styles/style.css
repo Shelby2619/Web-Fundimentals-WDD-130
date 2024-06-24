@@ -235,5 +235,13 @@ nav {
     footer {
         margin-top: 25px;
     }
-}
----------------------------- blog ----------------------------
+
+ #hero2 { 
+   background-color: #4A7C59;
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+    }
+    
+ .home-title {
+    grid-column: 4/5;
+    }
