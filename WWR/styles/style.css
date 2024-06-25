@@ -264,18 +264,18 @@ nav {
 
 .camping-river {
     grid-column: 1/3;
+    padding: 10px;
     max-width: 300%;
     transition: transform .5;
     box-shadow: 5px 5px 10px #6f7364;
 }
  .camping-river:hover {
     opacity: .6;
-    transfrom: scale (1,1)
+    transform: scale (1,1)
 
     }
 .redrock-lake {
     grid-column: 3/4;
-    max: width 250%;
     padding: 40px; 
     transition: transform .5;
     box-shadow: 5px 5px 10px #6f7364;
