@@ -228,9 +228,69 @@ nav {
     background-color: #FAF3DD;
     color: #485843;
  }
+ 
+.rivers-rocks-card {
+    float: left;
+    margin-left: 2em; 
+    padding: 20px;
+    box-shadow: 5px 5px 5px #485843;
 
- 
- 
+}
+.msg-p2 { 
+    margin: 2em;
+    padding: 30px;
+    text-align: justify;
+
+}
+.msg-p2 h2 {
+    text-align: center;
+    font-size: 50px;
+
+}
+.msg-p2 h4 {
+    font-family: 'Sedan', 'sans-serif';
+
+}
+.msg2-p2 h4 {
+    font-family: 'Playfair', 'Helvetica';
+    margin-left: 2em;
+    text-align: center;
+    padding-left: 20px;
+}
+#new-articles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.camping-river {
+    grid-column: 1/3;
+    max-width: 300%;
+    transition: transform .5;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+ .camping-river:hover {
+    opacity: .6;
+    transfrom: scale (1,1)
+
+    }
+.redrock-lake {
+    grid-column: 3/4;
+    max: width 250%;
+    padding: 40px; 
+    transition: transform .5;
+    box-shadow: 5px 5px 10px #6f7364;
+} 
+.redrock-lake:hover {
+    opacity: .6;
+    transform: scale (1,1);
+}
+.button-box-p2 {
+    padding-bottom: 30px;
+}
+.titleboxp2 {
+    background-color: black;
+    color: #8FC0A9;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
