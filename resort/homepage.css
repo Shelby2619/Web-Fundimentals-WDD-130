@@ -1,0 +1,293 @@
+#style {
+--heading-font: Sedan, Dancing Script;
+--paragraph-font: Playfair,Helvetica, san serif;
+
+}
+
+
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+#logo-header {
+    background-color: #006d77;
+    display: grid;
+    place-items: center;
+    max-height: 0%;
+    
+}
+.logo{
+    width: 200px ;
+    
+    
+}
+#logo-header img {
+    position: relative;
+}
+nav a {
+    text-align: center;
+    color:#edf6f9 ;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero_image_box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-message {
+    text-align: center;
+    font-size: 93px;
+    text-shadow: 4px 4px 2px #006d77;
+    font-family: 'Playfair', 'Helvetica', 'san serif';
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 200px;
+
+}
+
+#hero-message2 {
+    text-align: center ;
+    font-size: 45px;
+    font-family: 'Dancing Script';
+    color: #ffddd2;
+    text-shadow:2px 2px 8px black;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 160px;
+}
+#hero_image {
+    width: 100%;
+}
+
+body {
+    background-color: #edf6f9 ;
+    font-family: 'Playfair', 'Helvetica', 'san serif';
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav a:hover {
+    background-color: #83c5be;
+    color:#edf6f9 ;
+
+}
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #006d77;
+    padding: 10px 20px;
+    
+    
+}
+
+header {
+    background-color: #006d77;
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Sedan';
+    font-size: larger;
+    margin-top: -80px;
+    z-index: -5;
+    
+}
+
+#reservations_button {
+    background-color: #83c5be;
+    margin-top: -80px;
+    text-decoration: none;
+}
+.reserve_button h2 {
+    text-align: center;
+    font-family: 'Sedan';
+    font-size: 60px;
+    padding-top: 20px;
+    color: #edf6f9;
+    text-shadow: 3px 3px 4px #006d77;
+}
+#button-box-top {
+    text-align: center;
+    color: #006d77;
+    text-shadow:2px 2px 2px #edf6f9;
+    font-size: 40px;
+    font-family: 'Sedan';
+    margin-top: -60px;
+}
+    
+.reserve_button a:hover {
+    color: #edf6f9;
+    text-shadow: 2px 2px 2px #006d77;
+    text-decoration: none;
+}
+
+.reserve_button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.scheduler-grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.scheduler-grid h3{
+    color: #ffddd2;
+    text-shadow: 2px 2px 3px #d46235;
+}
+.scheduler-grid h3:hover {
+    color:#edf6f9;
+    opacity: 1;
+}
+.dates {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: #006d77;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.rooms {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: #006d77;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.group-package {
+    grid-column: 6/8;
+    grid-row: 1/2;
+    background-color: #006d77;
+    opacity: 0.8;
+    border-radius: 50%;
+
+}
+.retreat-events{
+    grid-column: 6/8;
+    grid-row: 3/4;
+    background-color: #006d77;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+.back-image-flower {
+    position: absolute;
+    width: 100%;
+    margin-top: -80px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+#see_more {
+    background-color: #006d77;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#see_more h2{
+    font-size: 0%;
+}
+#see_more a{
+   background-color: rgba(0, 0, 0, 0.642); 
+   font-family: 'Dancing Script';
+   text-decoration: none;
+   font-size: 30px;
+   color:white;
+   text-shadow: 2px 2px 8px #edf6f9;
+   position: absolute;
+   margin-left: 150px;
+   margin-top: 130px;
+}
+.card-img {
+    padding: 3px;
+    transition: transform .1s;
+    box-shadow:5px 5px 20px  #83c5be;
+}
+.card-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.review-title{
+   text-align: center;
+   background-color: #ffddd2;
+   border: dotted #006d77;
+   font-size: 30px;
+}
+#reviews{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+#reviews h2{
+    font-size: 0%;
+}
+.reviewer1 img {
+    grid-column: 2/3;
+}
+
+.reviewer2 img{
+    grid-column: 4/6;
+    margin-top: 60px;
+}
+
+.reviewer3 img{
+    margin-left: -10px;
+    grid-column: 7/9;
+}
+
+#reviews p{
+    font-size: 22px;
+    text-align: center;
+    width: 50%;
+    margin-left: 125px;
+    
+}
+.christine {
+    grid-column: 2/3;
+    grid-row: 3/4; 
+    margin-top: -90px;
+}
+.sarah {
+    margin-top: -80px;
+}
+
+.michael {
+    margin-top: -90px;
+    
+}
+
+/* Footer Below */
+
+footer {
+    background-color: #006d77;
+    color: #edf6f9;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #edf6f9;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
