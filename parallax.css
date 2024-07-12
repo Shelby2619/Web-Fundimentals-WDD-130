@@ -1,0 +1,55 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+  }
+  
+.box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/tT3nF9BC/pexels-brett-sayles-4143428.jpg');
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/JzKLDv3V/pexels-edwardeyer-811838.jpg');
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/6Qg5qFw6/pexels-wendywei-4945353.jpg');
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h1 {
+    color: black;
+    background-color:lightgrey
+    
+
+}
+
+.messaging {
+    text-align: center;
+    height: 300px;
+    margin-top: 150px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
