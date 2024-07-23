@@ -382,7 +382,6 @@ font-family: Playfair;
     text-decoration: none;
     color: #006d77;
     font-size: 40px ;
-    text-shadow: #0f1314;
     position: relative;
     
 }
@@ -395,8 +394,6 @@ font-family: Playfair;
 }
 
 .button-spa-title {
-    padding-top: -10px;
-    padding-bottom: -30px;
     font-size: 50px;
 }
 
@@ -411,6 +408,7 @@ font-family: Playfair;
     border: double black;
 }
 
+
 .written-massage,.written-treatment,.written-meditation {
     text-decoration: none;
     margin-left: 60px;
@@ -420,6 +418,7 @@ font-family: Playfair;
 
 .written-massage:hover{
     color: #ffddd2;
+    
 }
 
 .written-treatment:hover {
